@@ -1,0 +1,26 @@
+Hibernate ORM CRUD Operations for Student Database
+This project demonstrates the use of Hibernate ORM to perform CRUD (Create, Read, Update, Delete) operations on a student database. The database stores essential details about students including:
+
+Id
+Name
+Gender
+Department
+Program
+Date of Birth
+Contact Number
+Graduation Status
+CGPA
+Number of Backlogs
+Features
+Insert Student Details
+
+The application repeatedly prompts the user to insert details for a new student until the user chooses to stop. For each new student, the application collects information such as Id, name, gender, department, program, date of birth, contact number, graduation status, CGPA, and number of backlogs.
+Fetch Student Record
+
+Retrieves and displays the details of a student based on the provided student Id.
+Update Student Record
+
+Allows updating specific details of a student by providing the student Id and the new values for the fields to be updated.
+Delete Student Record
+
+Deletes a student record from the database based on the provided student Id.
